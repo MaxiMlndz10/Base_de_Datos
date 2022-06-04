@@ -4,13 +4,32 @@ Objetivo: Demostrar la correcta identificación de los conceptos del lenguaje SQ
 Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
+ * SELECT
+ * INSERT
+ * UPDATE
+ * DELETE
 
 2. Menciona 3 tipos de datos que existen: (valor .85)
-
+ * CHAR
+ * VARCHAR
+ * FLOAT
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
+ * TRUNCATE:
+    * Es una operación DDL.
+    * No permite el borrado selectivo (TRUNCATE TABLE elimina todo el contenido de la tabla).
+    * No se puede ejecutar, si la tabla tiene asociadas, aun si no existen registros en la tabla que contiene la FK.
+    * Es la forma más rapida de eliminar el contenido de una tabla.
+  
+ * DELETE:
+    * Es una operación DML.
+    * Permite el borrador selectivo mediante la clausula WHERE.
+    * Se puede ejecutar si hay FK asociadas a la tabla, pero siempre y cuando no tengan registros asociados o la FK este deshabilitada.
+    * Es mas lenta.
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
+   R= Para garantizar que no se inserten valores duplicados en una columna específica o combinación de columnas que participen en la restricción UNIQUE y no formen    parte de la CLAVE PRIMARIA.
+
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
@@ -36,6 +55,10 @@ En un mapa conceptual presenta 3 gestores de bases de datos, sus característica
 principales, las ventajas y desventajas. (valor 6)
 
 ![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
+
+
+![gestor base de datos](https://user-images.githubusercontent.com/101481300/171969076-a7d83344-21da-42c2-bfa4-4c456369dc9f.png)
+
 
 ## Práctica 6.
 ### Herramienta en línea y ejercicio necesarios para realizar las prácticas
