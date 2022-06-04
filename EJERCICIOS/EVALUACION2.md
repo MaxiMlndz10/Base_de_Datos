@@ -32,13 +32,14 @@ Ejercicio:
 
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
-
+   R= CHAR almacena solo tipos de datos de cadena única de longitud fija, mientras que VARCHAR almacena caracteres variables de diferentes cadenas y la longitud depende de la cadena.
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
-
+   R= SQL (LENGUAJE DE CONSULTA ESTRUCTURADA) Es un lenguaje de programación que actualiza, obtiene y calcula información de bases de datos relacionales.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
-
+   R= Es un software libre disponible para Windows Mac OS X y Linux.
+   
 ## Práctica 5.
 ### Gestores de base de datos
 
